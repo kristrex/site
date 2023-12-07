@@ -22,7 +22,7 @@ public class RandomPicture extends JFrame {
     }
 
     public static void main(String[] args) {
-        RandomPicture display = new RandomPicture("C:/Users/kristrex/Downloads/smile.jpg");
+        RandomPicture display = new RandomPicture("C:/Users/kristrex/IdeaProjects/javaynik/src/lab8/smile.jpg");
         display.setVisible(true);
     }
 }
