@@ -23,7 +23,7 @@ public class AnimatedPicture extends JFrame implements ActionListener {
 
         frames = new ImageIcon[FRAME_COUNT];
         for (int i = 0; i < FRAME_COUNT; i++) {
-            frames[i] = new ImageIcon("C:/Users/kristrex/Downloads/an" + (i+1) + ".png");
+            frames[i] = new ImageIcon("C:/Users/kristrex/IdeaProjects/javaynik/src/lab8/an" + (i+1) + ".png");
         }
 
         imageLabel = new JLabel(frames[0]);
